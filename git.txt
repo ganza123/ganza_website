@@ -1,0 +1,76 @@
+
+Ganza Nation@GN MINGW64 ~/Documents/ganza_website (master)
+$ git init
+C:/Users/Ganza Nation/Documents/ganza_website/.git: No such file or directory
+
+Ganza Nation@GN MINGW64 ~/Documents/ganza_website (master)
+$ git init
+Initialized empty Git repository in C:/Users/Ganza Nation/Documents/ganza_website/.git/
+
+Ganza Nation@GN MINGW64 ~/Documents/ganza_website (master)
+$ git add .
+
+Ganza Nation@GN MINGW64 ~/Documents/ganza_website (master)
+$ git commit -m "first project"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Ganza Nation@GN.(none)')
+
+Ganza Nation@GN MINGW64 ~/Documents/ganza_website (master)
+$ git config --global user.email "ganzakelvin@gmail.com"
+
+Ganza Nation@GN MINGW64 ~/Documents/ganza_website (master)
+$ git config --global user.name "ganza123"
+
+Ganza Nation@GN MINGW64 ~/Documents/ganza_website (master)
+$ ^C
+
+Ganza Nation@GN MINGW64 ~/Documents/ganza_website (master)
+$ git commit -m "first project"
+[master (root-commit) 6b95077] first project
+ 2 files changed, 25 insertions(+)
+ create mode 100644 introduction/asset/1.jpg
+ create mode 100644 introduction/index.html
+
+
+Ganza Nation@GN MINGW64 ~/Documents/ganza_website (master)
+$
+
+Ganza Nation@GN MINGW64 ~/Documents/ganza_website (master)
+$ git log
+commit 6b95077e269e1cded534e226043ab141b0165be8 (HEAD -> master)
+Author: ganza123 <ganzakelvin@gmail.com>
+Date:   Tue Aug 29 12:57:19 2023 +0200
+
+    first project
+
+Ganza Nation@GN MINGW64 ~/Documents/ganza_website (master)
+$ git branch -m main
+
+Ganza Nation@GN MINGW64 ~/Documents/ganza_website (main)
+$ git remote add origin https://github.com/ganza123/ganza_website.git
+
+Ganza Nation@GN MINGW64 ~/Documents/ganza_website (main)
+$ git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 248.37 KiB | 3.31 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ganza123/ganza_website.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Ganza Nation@GN MINGW64 ~/Documents/ganza_website (main)
