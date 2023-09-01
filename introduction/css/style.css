@@ -1,0 +1,100 @@
+/* Add your CSS styles here */
+
+/* HEADER */
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    gap:20px;
+    background-color:#007bff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+
+}
+h1{
+    color:#fff;
+}
+
+#button{
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#button:hover{
+    background-color:rgba(255, 255, 255, 0.938);
+    cursor: pointer;
+    transform: skewX(2deg);
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li,a{
+    list-style-type: none;
+    color:rgb(255, 255, 2555)
+}
+
+
+/* --------------------------------- 
+END HEADER
+ --------------------------------- */
+/* HEADER */
+
+
+#p1{
+    width: 20rem;
+    background: red;        
+}
+#p2{
+    width: 320px;
+    background-color: rgb(194, 242, 61);
+}
+#p3{
+    width: 20%;
+    background-color: rgb(77, 255, 0);
+}
+#ps{
+    display:flex;
+}
+#hero-area{
+    padding:0px 10px 50px 10px;
+}
+#hero-content{
+    width: 50%;
+    padding: 40px;
+
+}
+#hero-image{
+    width: 50%;
+    padding: 40px;
+}
+#hero-area{
+    display:flex;
+}
+h2{
+    color:#007bff;
+    font-size: 70px;
+}
+#button2{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 40px;
+}
