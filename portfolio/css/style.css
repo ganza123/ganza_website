@@ -58,6 +58,7 @@ h2{
 #home-p{
     color:var(--black);
     line-height: 2.0;
+    padding-top: 20px;
 }
 /* Email Css */
 #button{
@@ -183,23 +184,72 @@ h2{
     
    
 }
-#client-card img {
+#client-card img{
     max-width: 100%;
     height: auto;
     border-radius: 50%;
     width: 80px;
 }
 
-#client-card h6, #client-card h4 {
+.client-h6{
+    padding-top:10px;
     color: var(--black);
-    margin: 0px;
-    padding:0px;
+    font-size: 20px;
+    font-weight:bold;
+}
+.client-h4{
+    padding-top:10px;
+    color: var(--black);
+    font-size: 10px;
+    font-weight:bold;
 }
 
-#client-card p {
+.client-p{
+    padding-top:20px;
     color: var(--black);
-    margin: 0px;
-    padding:0px;
-    size: 10px;
-    
+    font-size: 14px;
+    line-height: 1.6;
+}
+/* Footer =============================================*/
+
+#footer-container{
+    padding-top:60px;
+    padding-left:128px;
+    padding-right: 128px;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap:30px; 
+ 
+}
+#footer-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:30px; 
+   
+}
+#footer-description{
+    color: var(--black);
+    font-size: 30px;
+    font-weight: bold;
+    padding:30px 0px ;
+}    
+
+#footer-ul{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+/* End ===============================*/
+#end{
+    color: var(--blue);
+    padding-top:60px;
+    padding-left:128px;
+    padding-right: 128px;
+}
+#end-p{
+    color: var(--black);
+    text-align: left;
+    padding:8px;
+    font-size: 14px;
 }
